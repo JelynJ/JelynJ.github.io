@@ -1,0 +1,56 @@
+.gallery {
+    position: relative;
+    /*width: 50%;*/
+    height: 100%;
+    margin: -8% 24% 0 22%;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.raindrop-top {
+    position: absolute;
+    top: 165%;
+    left: 21.5%;
+    z-index: 1000;
+}
+
+.raindrop-top img {
+    display: block;
+    width: 30%;
+    height: auto;
+}
+
+.raindrop-trace {
+    position: absolute;
+    width: 2px;
+    height: 1250px;
+    background: linear-gradient(to bottom, #bda29d 0%, #bda29d 20%, transparent 40%, transparent 40%) repeat-y;
+    background-size: 100% 20px;
+    z-index: -1;
+    top: 22%;
+    left: 23.6%;
+}
+
+
+@keyframes raindropTraceGrow-one {
+    0% { height: 0; }
+    100% { height: 1200px; }
+}
+
+
+@keyframes raindropFall-one {
+    0% {
+        top: 20%;
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    100% {
+        top: calc(20% + 1200px);
+        opacity: 1;
+    }
+}

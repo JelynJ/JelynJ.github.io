@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -751,3 +753,4 @@ a:active {
     font-display: swap;
     src: url(/assets/fonts/JosefinSans-Italic-VariableFont_wght.ttf) format('truetype');
 }
+

@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9c286bb-fa30-44ce-ae5e-afac816b7817" name="Default Changelist" comment="refactor">
-      <change afterPath="$PROJECT_DIR$/assets/fonts/JosefinSans-ThinItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/JosefinSans-ThinItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/JosefinSans-Thin.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/JosefinSans-Thin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/JosefinSans-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/JosefinSans-Thin.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/JosefinSans-Thin.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/asserts/fonts/AdobeSongStd-Light.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/asserts/fonts/CroissantOne-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/asserts/fonts/FUTURXKI_0.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/asserts/fonts/JosefinSans-Italic-VariableFont_wght.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/asserts/fonts/JosefinSans-Thin.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/asserts/fonts/JosefinSans-Thin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/asserts/fonts/JosefinSans-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/asserts/fonts/JosefinSans-Thin.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/asserts/fonts/JosefinSans-Thin.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/asserts/fonts/JosefinSans-ThinItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/asserts/fonts/JosefinSans-ThinItalic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/asserts/fonts/JosefinSans-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/asserts/fonts/JosefinSans-ThinItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/asserts/fonts/JosefinSans-ThinItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/asserts/fonts/JosefinSans-VariableFont_wght.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -35,13 +53,14 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css/asserts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css/asserts" />
       <recent name="$PROJECT_DIR$/assets/fonts" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
@@ -67,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699079220265</updated>
-      <workItem from="1699079222056" duration="11630000" />
+      <workItem from="1699079222056" duration="12254000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <created>1699189100565</created>

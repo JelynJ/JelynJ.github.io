@@ -747,9 +747,6 @@ a:active {
 
 @font-face {
     font-family: 'Josefin Sans', sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    font-display: swap;
     src: url(/assets/fonts/JosefinSans-VariableFont_wght.ttf) format('truetype');
 }
 

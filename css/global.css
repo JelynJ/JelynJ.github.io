@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:900italic');
 
 @font-face {
-    font-family:"Josefin Sans", sans-serif;
-    src: url("/assets/fonts/JosefinSans-Italic-VariableFont_wght.ttf") format("truetype"),
-url("/assets/fonts/JosefinSans-ThinItalic.woff") format("woff"),
-url("/assets/fonts/JosefinSans-ThinItalic.woff2") format("woff2");
-    font-weight:900;
-    font-style: normal;
+    font-family: 'Josefin Sans';
+    src: url('asserts/fonts/JosefinSans-ThinItalic.eot');
+    src: url('asserts/fonts/JosefinSans-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('asserts/fonts/JosefinSans-ThinItalic.woff2') format('woff2'),
+    url('asserts/fonts/JosefinSans-ThinItalic.woff') format('woff'),
+    url('asserts/fonts/JosefinSans-ThinItalic.ttf') format('truetype'),
+    url('asserts/fonts/JosefinSans-ThinItalic.svg#JosefinSans-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
 }
+
 .header {
     display: flex;
     justify-content: space-between;

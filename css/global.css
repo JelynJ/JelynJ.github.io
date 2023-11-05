@@ -746,3 +746,9 @@ a:active {
     }
 }
 
+@font-face {
+    font-family:"Occupied";
+    src: url("/assets/fonts/JosefinSans-Italic-VariableFont_wght.ttf") format("truetype");
+    font-weight:900;
+    font-style:italic;
+}

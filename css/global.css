@@ -743,3 +743,11 @@ a:active {
         width: 20%;
     }
 }
+
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(/assets/fonts/JosefinSans-Italic-VariableFont_wght.ttf) format('truetype');
+}

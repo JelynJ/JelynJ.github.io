@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10% 0 12%;
+    margin: -12% 0 0 0;
+    overflow: visible;
+}
 
 * {
     box-sizing: border-box;
@@ -8,15 +16,6 @@
     font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
     scroll-behavior: smooth;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10% 0 12%;
-    margin: -12% 0 0 0;
-    overflow: visible;
 }
 
 
@@ -747,10 +746,10 @@ a:active {
 }
 
 @font-face {
-    font-family: 'Josefin Sans';
+    font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
     font-weight: 100;
     font-display: swap;
-    src: url(/assets/fonts/JosefinSans-Italic-VariableFont_wght.ttf) format('truetype');
+    src: url(/assets/fonts/JosefinSans-VariableFont_wght.ttf) format('truetype');
 }
 

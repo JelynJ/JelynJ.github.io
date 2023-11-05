@@ -143,6 +143,7 @@
     transform: translateX(-50%);
     opacity: 0;
     animation: raindropFall-one 4s 0.5s forwards;
+    z-index: -10;
 }
 
 @keyframes raindropTraceGrow-one {

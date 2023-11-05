@@ -2,7 +2,9 @@
 
 @font-face {
     font-family:"Josefin Sans", sans-serif;
-    src: url("/assets/fonts/JosefinSans-Italic-VariableFont_wght.ttf") format("truetype");
+    src: url("/assets/fonts/JosefinSans-Italic-VariableFont_wght.ttf") format("truetype"),
+url("/assets/fonts/JosefinSans-ThinItalic.woff") format("woff"),
+url("/assets/fonts/JosefinSans-ThinItalic.woff2") format("woff2");
     font-weight:900;
     font-style: normal;
 }
@@ -21,7 +23,7 @@
     padding: 0;
     overflow-x: hidden;
     font-family: 'Josefin Sans', sans-serif;
-    font-style: normal;
+    font-style: initial;
     scroll-behavior: smooth;
 }
 

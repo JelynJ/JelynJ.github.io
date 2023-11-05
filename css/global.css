@@ -745,8 +745,3 @@ a:active {
     }
 }
 
-@font-face {
-    font-family: 'Josefin Sans', sans-serif;
-    src: url(/assets/fonts/JosefinSans-VariableFont_wght.ttf) format('truetype');
-}
-

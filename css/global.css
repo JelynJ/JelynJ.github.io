@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:900italic');
 
+@font-face {
+    font-family:"Josefin Sans", sans-serif;
+    src: url("/assets/fonts/JosefinSans-Italic-VariableFont_wght.ttf") format("truetype");
+    font-weight:900;
+    font-style: normal;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -744,11 +751,4 @@ a:active {
         align-items: center;
         width: 20%;
     }
-}
-
-@font-face {
-    font-family:"Josefin Sans", sans-serif;
-    src: url("/assets/fonts/JosefinSans-Italic-VariableFont_wght.ttf") format("truetype");
-    font-weight:900;
-    font-style: normal;
 }

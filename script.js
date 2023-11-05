@@ -9,7 +9,7 @@ function handleCloudClick(event) {
         var targetURL = '';
         switch(event.target.id) {
             case 'UI-UX':
-                targetURL = 'gallery8.html';
+                targetURL = 'gallery1.html';
                 break;
             case 'DATA-INFORMATION':
                 targetURL = 'gallery6.html';

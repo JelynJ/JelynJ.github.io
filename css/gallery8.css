@@ -30,3 +30,14 @@
         opacity: 1;
     }
 }
+
+.video-trigger {
+    position: absolute;
+    top: 5.2%;
+    left: 5.5%;
+    width: 41%; /* Adjust as needed */
+    height: 20.5%; /* Adjust as needed */
+    /*border-radius: 100%;*/
+    background: rgba(255, 255, 255, 0.1); /* Adjust as needed */
+    cursor: pointer;
+}

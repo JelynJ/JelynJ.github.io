@@ -547,7 +547,7 @@ table th {
         background-size: 100% 20px;
         z-index: -1;
         top: 20%;
-        left: 33.46%;
+        left: 32.56%;
         animation: raindropTraceGrow-two 2s 4s forwards;
     }
 
@@ -558,7 +558,7 @@ table th {
         background: url('https://jelynjin.neocities.org/raindrop.png') no-repeat;
         background-size: contain;
         top: 20%;
-        left: 33.46%;
+        left: 32.56%;
         transform: translateX(-50%);
         opacity: 0;
         animation: raindropFall-two 2s 4s forwards;
@@ -572,7 +572,7 @@ table th {
         background-size: 100% 20px;
         z-index: -1;
         top: 20%;
-        left: 69.58%;
+        left: 70.58%;
         animation: raindropTraceGrow-three 2s 4s forwards;
     }
 
@@ -583,7 +583,7 @@ table th {
         background: url('https://jelynjin.neocities.org/raindrop.png') no-repeat;
         background-size: contain;
         top: 20%;
-        left: 69.58%;
+        left: 70.58%;
         transform: translateX(-50%);
         opacity: 0;
         animation: raindropFall-three 1.5s 4s forwards;
@@ -596,8 +596,8 @@ table th {
         background: linear-gradient(to bottom, #bda29d 0%, #bda29d 20%, transparent 40%, transparent 40%) repeat-y;
         background-size: 100% 20px;
         z-index: -1;
-        top: 50%;
-        left: 74.5%;
+        top: 46%;
+        left: 74.55%;
         animation: raindropTraceGrow-four 2s 1s forwards;
     }
 
@@ -607,7 +607,7 @@ table th {
         height: 55px;
         background: url('https://jelynjin.neocities.org/18.png') no-repeat;
         background-size: contain;
-        top: 55%;
+        top: 46%;
         left:74.5%;
         transform: translateX(-50%);
         opacity: 0;
@@ -622,7 +622,7 @@ table th {
         background: linear-gradient(to bottom, #bda29d 0%, #bda29d 20%, transparent 40%, transparent 40%) repeat-y;
         background-size: 100% 20px;
         z-index: -1;
-        top: 50%;
+        top: 46%;
         left: 80.5%;
         animation: raindropTraceGrow-five 2.5s 1s forwards;
     }
@@ -633,7 +633,7 @@ table th {
         height: 55px;
         background: url('https://jelynjin.neocities.org/raindrop.png') no-repeat;
         background-size: contain;
-        top: 50%;
+        top: 46%;
         left: 80.5%;
         transform: translateX(-50%);
         opacity: 0;
@@ -657,12 +657,12 @@ table th {
 
     @keyframes raindropTraceGrow-four {
         0% { height: 0; }
-        100% { height: 580px; }
+        100% { height: 600px; }
     }
 
     @keyframes raindropTraceGrow-five {
         0% { height: 0; }
-        100% { height: 960px; }
+        100% { height: 980px; }
     }
 
 

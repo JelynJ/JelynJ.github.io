@@ -1,0 +1,591 @@
+[
+  {
+    "date": "27th Sep",
+    "courseTasks": 3,
+    "timeSpentOnHW": "3hr",
+    "wakeUpTime": "6:54 AM",
+    "timeToFallAsleep": "1hr 42min",
+    "sleepDurations": {
+      "deepSleep": "1hr 3min",
+      "remSleep": "1hr 53min"
+    },
+    "exerciseDuration": "1hr 41min",
+    "heartRates": {
+      "peakHeartRate": 153,
+      "avgRestingHeartRate": 59
+    },
+    "wakeUpFeeling": 3,
+    "appetiteUponWakefulness": 1,
+    "postWorkoutSoreness": 4
+  },
+  {
+    "date": "28th Sep",
+    "courseTasks": 2,
+    "timeSpentOnHW": "2hr",
+    "wakeUpTime": "9:58 AM",
+    "timeToFallAsleep": "2hr 13min",
+    "sleepDurations": {
+      "deepSleep": "1hr 23min",
+      "remSleep": "1hr 3min"
+    },
+    "exerciseDuration": "2hr 18min",
+    "heartRates": {
+      "peakHeartRate": 172,
+      "avgRestingHeartRate": 49
+    },
+    "wakeUpFeeling": 0,
+    "appetiteUponWakefulness": 0,
+    "postWorkoutSoreness": 5
+  },
+  {
+    "date": "29th Sep",
+    "courseTasks": 3,
+    "timeSpentOnHW": "3hr 50min",
+    "wakeUpTime": "6:16 AM",
+    "timeToFallAsleep": "1hr 18min",
+    "sleepDurations": {
+      "deepSleep": "56min",
+      "remSleep": "2hr 13min"
+    },
+    "exerciseDuration": "1hr 18min",
+    "heartRates": {
+      "peakHeartRate": 140,
+      "avgRestingHeartRate": 63
+    },
+    "wakeUpFeeling": 4,
+    "appetiteUponWakefulness":2,
+    "postWorkoutSoreness": 4
+  },
+  {
+    "date": "30th Sep",
+    "courseTasks": 4,
+    "timeSpentOnHW": "4hr",
+    "wakeUpTime": "5:58 AM",
+    "timeToFallAsleep": "1hr 12min",
+    "sleepDurations": {
+      "deepSleep": "53min",
+      "remSleep": "2hr 19min"
+    },
+    "exerciseDuration": "1hr 11min",
+    "heartRates": {
+      "peakHeartRate": 137,
+      "avgRestingHeartRate": 65
+    },
+    "wakeUpFeeling": 4,
+    "appetiteUponWakefulness": 3,
+    "postWorkoutSoreness": 3
+  },
+  {
+    "date": "1th Oct",
+    "courseTasks": 3,
+    "timeSpentOnHW": "3hr",
+    "wakeUpTime": "6:40 AM",
+    "timeToFallAsleep": "1hr 26min",
+    "sleepDurations": {
+      "deepSleep": "58min",
+      "remSleep": "2hr 8min"
+    },
+    "exerciseDuration": "1hr 27min",
+    "heartRates": {
+      "peakHeartRate": 144,
+      "avgRestingHeartRate": 60
+    },
+    "wakeUpFeeling": 3,
+    "appetiteUponWakefulness": 2,
+    "postWorkoutSoreness": 4
+  },
+  {
+    "date": "2th Oct",
+    "courseTasks": 3,
+    "timeSpentOnHW": "3hr",
+    "wakeUpTime": "6:20 AM",
+    "timeToFallAsleep": "1hr 20min",
+    "sleepDurations": {
+      "deepSleep": "58min",
+      "remSleep": "2hr 13min"
+    },
+    "exerciseDuration": "1hr 19min",
+    "heartRates": {
+      "peakHeartRate": 142,
+      "avgRestingHeartRate": 63
+    },
+    "wakeUpFeeling": 4,
+    "appetiteUponWakefulness": 2,
+    "postWorkoutSoreness": 4
+  },
+  {
+    "date": "3th Oct",
+    "courseTasks": 2,
+    "timeSpentOnHW": "2hr",
+    "wakeUpTime": "8:00 AM",
+    "timeToFallAsleep": "2hr 12min",
+    "sleepDurations": {
+      "deepSleep": "1hr 21min",
+      "remSleep": "1hr 3min"
+    },
+    "exerciseDuration": "2hr 16min",
+    "heartRates": {
+      "peakHeartRate": 170,
+      "avgRestingHeartRate": 50
+    },
+    "wakeUpFeeling": 0,
+    "appetiteUponWakefulness": 0,
+    "postWorkoutSoreness": 5
+  },
+  {
+    "date": "4th Oct",
+    "courseTasks": 3,
+    "timeSpentOnHW": "2hr 50min",
+    "wakeUpTime": "7:04 AM",
+    "timeToFallAsleep": "2hr 1min",
+    "sleepDurations": {
+      "deepSleep": "1hr 10min",
+      "remSleep": "1hr 39min"
+    },
+    "exerciseDuration": "2hr 6min",
+    "heartRates": {
+      "peakHeartRate": 158,
+      "avgRestingHeartRate": 57
+    },
+    "wakeUpFeeling": 3,
+    "appetiteUponWakefulness": 1,
+    "postWorkoutSoreness": 4
+  },
+  {
+    "date": "5th Oct",
+    "courseTasks": 2,
+    "timeSpentOnHW": "2hr 15min",
+    "wakeUpTime": "7:38 AM",
+    "timeToFallAsleep": "2hr 10min",
+    "sleepDurations": {
+      "deepSleep": "1hr 20min",
+      "remSleep": "1hr 20min"
+    },
+    "exerciseDuration": "2hr 12min",
+    "heartRates": {
+      "peakHeartRate": 165,
+      "avgRestingHeartRate": 52
+    },
+    "wakeUpFeeling": 1,
+    "appetiteUponWakefulness": 0,
+    "postWorkoutSoreness": 5
+  },
+  {
+      "date": "6th Oct",
+      "courseTasks": 1,
+      "timeSpentOnHW": "1hr 30min",
+      "wakeUpTime": "10:12 AM",
+      "timeToFallAsleep": "2hr 20min",
+      "sleepDurations": {
+      "deepSleep": "1hr 34min",
+      "remSleep": "59min"
+      },
+      "exerciseDuration": "2hr 20min",
+      "heartRates": {
+      "peakHeartRate": 177,
+      "avgRestingHeartRate": 44
+      },
+      "wakeUpFeeling": 0,
+      "appetiteUponWakefulness": 0,
+      "postWorkoutSoreness": 5
+  },
+  {
+      "date": "7th Oct",
+      "courseTasks": 4,
+      "timeSpentOnHW": "4hr",
+      "wakeUpTime": "6:11 AM",
+      "timeToFallAsleep": "1hr 16min",
+      "sleepDurations": {
+      "deepSleep": "54min",
+      "remSleep": "2hr 18min"
+      },
+      "exerciseDuration": "1hr 12min",
+      "heartRates": {
+      "peakHeartRate": 137,
+      "avgRestingHeartRate": 64
+      },
+      "wakeUpFeeling": 4,
+      "appetiteUponWakefulness": 2,
+      "postWorkoutSoreness": 4
+  },
+  {
+      "date": "8th Oct",
+      "courseTasks": 3,
+      "timeSpentOnHW": "2hr 50min",
+      "wakeUpTime": "7:02 AM",
+      "timeToFallAsleep": "1hr 58min",
+      "sleepDurations": {
+      "deepSleep": "1hr 7mn",
+      "remSleep": "1hr 39min"
+      },
+      "exerciseDuration": "2hr",
+      "heartRates": {
+      "peakHeartRate": 156,
+      "avgRestingHeartRate": 58
+      },
+      "wakeUpFeeling": 3,
+      "appetiteUponWakefulness": 1,
+      "postWorkoutSoreness": 4
+  },
+  {
+      "date": "9th Oct",
+      "courseTasks": 3,
+      "timeSpentOnHW": "3hr",
+      "wakeUpTime": "7:01 AM",
+      "timeToFallAsleep": "1hr 57min",
+      "sleepDurations": {
+      "deepSleep": "1hr 7min",
+      "remSleep": "1hr 42min"
+      },
+      "exerciseDuration": "1hr 54min",
+      "heartRates": {
+      "peakHeartRate": 154,
+      "avgRestingHeartRate": 59
+      },
+      "wakeUpFeeling": 3,
+      "appetiteUponWakefulness": 1,
+      "postWorkoutSoreness": 4
+  },
+  {
+      "date": "10th Oct",
+      "courseTasks": 4,
+      "timeSpentOnHW": "5hr",
+      "wakeUpTime": "5:31 AM",
+      "timeToFallAsleep": "1hr 2min",
+      "sleepDurations": {
+      "deepSleep": "44min",
+      "remSleep": "2hr 25min"
+      },
+      "exerciseDuration": "1hr 2min",
+      "heartRates": {
+      "peakHeartRate": 132,
+      "avgRestingHeartRate": 66
+      },
+      "wakeUpFeeling": 5,
+      "appetiteUponWakefulness": 3,
+      "postWorkoutSoreness": 3
+  },
+  {
+      "date": "11th Oct",
+      "courseTasks": 2,
+      "timeSpentOnHW": "2hr",
+      "wakeUpTime": "8:15 AM",
+      "timeToFallAsleep": "2hr 16min",
+      "sleepDurations": {
+      "deepSleep": "1hr 31min",
+      "remSleep": "1hr 2min"
+      },
+      "exerciseDuration": "2hr 18min",
+      "heartRates": {
+      "peakHeartRate": 174,
+      "avgRestingHeartRate": 46
+      },
+      "wakeUpFeeling": 0,
+      "appetiteUponWakefulness": 0,
+      "postWorkoutSoreness": 5
+  },
+  {
+      "date": "12th Oct",
+      "courseTasks": 4,
+      "timeSpentOnHW": "5hr",
+      "wakeUpTime": "5:30 AM",
+      "timeToFallAsleep": "1hr 6min",
+      "sleepDurations": {
+      "deepSleep": "45min",
+      "remSleep": "2hr 24min"
+      },
+      "exerciseDuration": "1hr 7min",
+      "heartRates": {
+      "peakHeartRate": 135,
+      "avgRestingHeartRate": 66
+      },
+      "wakeUpFeeling": 5,
+      "appetiteUponWakefulness": 3,
+      "postWorkoutSoreness": 3
+  },
+  {
+      "date": "13th Oct",
+      "courseTasks": 5,
+      "timeSpentOnHW": "6hr",
+      "wakeUpTime": "5:25 AM",
+      "timeToFallAsleep": "55min",
+      "sleepDurations": {
+      "deepSleep": "36min",
+      "remSleep": "2hr 31min"
+      },
+      "exerciseDuration": "56min",
+      "heartRates": {
+      "peakHeartRate": 128,
+      "avgRestingHeartRate": 68
+      },
+      "wakeUpFeeling": 5,
+      "appetiteUponWakefulness": 3,
+      "postWorkoutSoreness": 2
+  },
+  {
+      "date": "14th Oct",
+      "courseTasks": 1,
+      "timeSpentOnHW": "1hr",
+      "wakeUpTime": "10:56 AM",
+      "timeToFallAsleep": "2hr 20min",
+      "sleepDurations": {
+      "deepSleep": "1hr 43min",
+      "remSleep": "32min"
+      },
+      "exerciseDuration": "2hr 20min",
+      "heartRates": {
+      "peakHeartRate": 178,
+      "avgRestingHeartRate": 44
+      },
+      "wakeUpFeeling": 0,
+      "appetiteUponWakefulness": 0,
+      "postWorkoutSoreness": 5
+  },
+  {
+      "date": "15th Oct",
+      "courseTasks": 2,
+      "timeSpentOnHW": "2hr 30min",
+      "wakeUpTime": "7:32 AM",
+      "timeToFallAsleep": "2hr 9min",
+      "sleepDurations": {
+      "deepSleep": "1hr 19min",
+      "remSleep": "1hr 20min"
+      },
+      "exerciseDuration": "2hr 8min",
+      "heartRates": {
+      "peakHeartRate": 163,
+      "avgRestingHeartRate": 53
+      },
+      "wakeUpFeeling": 1,
+      "appetiteUponWakefulness": 1,
+      "postWorkoutSoreness": 4
+  },
+  {
+      "date": "16th Oct",
+      "courseTasks": 3,
+      "timeSpentOnHW": "3hr",
+      "wakeUpTime": "6:54 AM",
+      "timeToFallAsleep": "1hr 30min",
+      "sleepDurations": {
+      "deepSleep": "1hr 2min",
+      "remSleep": "2hr 2min"
+      },
+      "exerciseDuration": "1hr 31min",
+      "heartRates": {
+      "peakHeartRate": 149,
+      "avgRestingHeartRate": 59
+      },
+      "wakeUpFeeling": 3,
+      "appetiteUponWakefulness": 1,
+      "postWorkoutSoreness": 4
+  },
+  {
+      "date": "17th Oct",
+      "courseTasks": 5,
+      "timeSpentOnHW": "6hr 30min",
+      "wakeUpTime": "5:22 AM",
+      "timeToFallAsleep": "52min",
+      "sleepDurations": {
+      "deepSleep": "32min",
+      "remSleep": "2hr 32min"
+      },
+      "exerciseDuration": "52min",
+      "heartRates": {
+      "peakHeartRate": 123,
+      "avgRestingHeartRate": 68
+      },
+      "wakeUpFeeling": 5,
+      "appetiteUponWakefulness": 4,
+      "postWorkoutSoreness": 2
+  },
+  {
+      "date": "18th Oct",
+      "courseTasks": 5,
+      "timeSpentOnHW": "7hr",
+      "wakeUpTime": "5:21 AM",
+      "timeToFallAsleep": "50min",
+      "sleepDurations": {
+      "deepSleep": "6min",
+      "remSleep": "2hr 41min"
+      },
+      "exerciseDuration": "41min",
+      "heartRates": {
+      "peakHeartRate": 119,
+      "avgRestingHeartRate": 69
+      },
+      "wakeUpFeeling": 5,
+      "appetiteUponWakefulness": 4,
+      "postWorkoutSoreness": 1
+  },
+  {
+      "date": "19th Oct",
+      "courseTasks": 3,
+      "timeSpentOnHW": "2hr 30min",
+      "wakeUpTime": "7:31 AM",
+      "timeToFallAsleep": "2hr 5min",
+      "sleepDurations": {
+      "deepSleep": "1hr 13min",
+      "remSleep": "1hr 34min"
+      },
+      "exerciseDuration": "2hr 7min",
+      "heartRates": {
+      "peakHeartRate": 160,
+      "avgRestingHeartRate": 55
+      },
+      "wakeUpFeeling": 2,
+      "appetiteUponWakefulness": 1,
+      "postWorkoutSoreness": 4
+  },
+  {
+      "date": "20th Oct",
+      "courseTasks": 3,
+      "timeSpentOnHW": "4hr",
+      "wakeUpTime": "6:14 AM",
+      "timeToFallAsleep": "1hr 17min",
+      "sleepDurations": {
+      "deepSleep": "55min",
+      "remSleep": "2hr 18min"
+      },
+      "exerciseDuration": "1hr 17min",
+      "heartRates": {
+      "peakHeartRate": 139,
+      "avgRestingHeartRate": 64
+      },
+      "wakeUpFeeling": 4,
+      "appetiteUponWakefulness": 2,
+      "postWorkoutSoreness": 4
+  },
+  {
+      "date": "21th Oct",
+      "courseTasks": 4,
+      "timeSpentOnHW": "5hr 20min",
+      "wakeUpTime": "5:23 AM",
+      "timeToFallAsleep": "58min",
+      "sleepDurations": {
+      "deepSleep": "43min",
+      "remSleep": "2hr 30min"
+      },
+      "exerciseDuration": "58min",
+      "heartRates": {
+      "peakHeartRate": 129,
+      "avgRestingHeartRate": 68
+      },
+      "wakeUpFeeling": 5,
+      "appetiteUponWakefulness": 4,
+      "postWorkoutSoreness": 2
+  },
+  {
+      "date": "22th Oct",
+      "courseTasks": 3,
+      "timeSpentOnHW": "3hr",
+      "wakeUpTime": "7:00 AM",
+      "timeToFallAsleep": "1hr 48min",
+      "sleepDurations": {
+      "deepSleep": "1hr 5min",
+      "remSleep": "1hr 52min"
+      },
+      "exerciseDuration": "1hr 50min",
+      "heartRates": {
+      "peakHeartRate": 154,
+      "avgRestingHeartRate": 59
+      },
+      "wakeUpFeeling": 3,
+      "appetiteUponWakefulness": 1,
+      "postWorkoutSoreness": 4
+  },
+  {
+      "date": "23th Oct",
+      "courseTasks": 2,
+      "timeSpentOnHW": "2hr",
+      "wakeUpTime": "7:55 AM",
+      "timeToFallAsleep": "2hr 11min",
+      "sleepDurations": {
+      "deepSleep": "1hr 21min",
+      "remSleep": "1hr 4min"
+      },
+      "exerciseDuration": "2hr 13min",
+      "heartRates": {
+      "peakHeartRate": 166,
+      "avgRestingHeartRate": 51
+      },
+      "wakeUpFeeling": 0,
+      "appetiteUponWakefulness": 0,
+      "postWorkoutSoreness": 5
+  },
+  {
+      "date": "24th Oct",
+      "courseTasks": 5,
+      "timeSpentOnHW": "10hr",
+      "wakeUpTime": "5:04 AM",
+      "timeToFallAsleep": "29min",
+      "sleepDurations": {
+      "deepSleep": "1min",
+      "remSleep": "2hr 42min"
+      },
+      "exerciseDuration": "30min",
+      "heartRates": {
+      "peakHeartRate": 118,
+      "avgRestingHeartRate": 71
+      },
+      "wakeUpFeeling": 5,
+      "appetiteUponWakefulness": 4,
+      "postWorkoutSoreness": 1
+  },
+  {
+      "date": "25th Oct",
+      "courseTasks": 4,
+      "timeSpentOnHW": "4hr",
+      "wakeUpTime": "5:44 AM",
+      "timeToFallAsleep": "1hr 8min",
+      "sleepDurations": {
+      "deepSleep": "53min",
+      "remSleep": "2hr 20min"
+      },
+      "exerciseDuration": "1hr 10min",
+      "heartRates": {
+      "peakHeartRate": 136,
+      "avgRestingHeartRate": 65
+      },
+      "wakeUpFeeling": 4,
+      "appetiteUponWakefulness": 3,
+      "postWorkoutSoreness": 3
+  },
+  {
+      "date": "26th Oct",
+      "courseTasks": 3,
+      "timeSpentOnHW": "2hr 30min",
+      "wakeUpTime": "7:31 AM",
+      "timeToFallAsleep": "2hr 6min",
+      "sleepDurations": {
+      "deepSleep": "1hr 16min",
+      "remSleep": "1hr 26min"
+      },
+      "exerciseDuration": "2hr 7min",
+      "heartRates": {
+      "peakHeartRate": 162,
+      "avgRestingHeartRate": 54
+      },
+      "wakeUpFeeling": 2,
+      "appetiteUponWakefulness": 1,
+      "postWorkoutSoreness": 4
+  },
+  {
+      "date": "27th Oct",
+      "courseTasks": 4,
+      "timeSpentOnHW": "4hr 40min",
+      "wakeUpTime": "5:34 AM",
+      "timeToFallAsleep": "1hr 7min",
+      "sleepDurations": {
+      "deepSleep": "47min",
+      "remSleep": "2hr 21min"
+      },
+      "exerciseDuration": "1hr 8min",
+      "heartRates": {
+      "peakHeartRate": 136,
+      "avgRestingHeartRate": 65
+      },
+      "wakeUpFeeling": 4,
+      "appetiteUponWakefulness": 3,
+      "postWorkoutSoreness": 3
+  }
+]

@@ -1,0 +1,1110 @@
+@font-face {
+    font-family: 'GulfsDisplay-ExpandedItalic';
+    src: url('https://jelynjin.neocities.org/GulfsDisplay-ExpandedItalic.eot');
+    src: url('https://jelynjin.neocities.org/GulfsDisplay-ExpandedItalic.eot?#iefix') format('embedded-opentype'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-ExpandedItalic.woff2') format('woff2'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-ExpandedItalic.woff') format('woff'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-ExpandedItalic.ttf') format('truetype'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-ExpandedItalic.svg') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GulfsDisplay-Expanded';
+    src: url('https://jelynjin.neocities.org/GulfsDisplay-Expanded.eot');
+    src: url('https://jelynjin.neocities.org/GulfsDisplay-Expanded.eot?#iefix') format('embedded-opentype'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-Expanded.woff2') format('woff2'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-Expanded.woff') format('woff'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-Expanded.ttf') format('truetype'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-Expanded.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background: linear-gradient(to bottom, #A076F7 5%, #D8D8FF 100%);
+    font-family: 'GulfsDisplay-Expanded', serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2 {
+    font-family: 'Quattrocento', serif;
+    font-size: 1.5em;
+}
+
+p {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 20px;
+    padding: 1%;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+img {
+    /*border-radius: 10px;*/
+    max-width: 90%
+}
+
+/*header*/
+
+header {
+    background-color: #2E2877;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    flex-flow: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-family: 'GulfsDisplay-Expanded', serif;
+    font-weight: normal;
+    font-style: italic;
+}
+
+/*Menu*/
+
+.menu {
+    margin: 0;
+    padding: 0 0;
+    list-style: none;
+    overflow: hidden;
+    clear: both;
+    max-height: 0;
+    transition: .2s ease-out;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+}
+
+.menu a:hover {
+    background-color: #9A55B2;
+}
+
+.menu-icon {
+    display: block;
+    padding: 28px 40px 28px 10px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+
+.nav-icon {
+    background: #ffffff;
+    display: block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+    transition: background .2s ease-out;
+}
+
+.nav-icon:before {
+    background: #ffffff;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 5px;
+    transition: all .2s ease-out;
+}
+
+.nav-icon:after {
+    background: #ffffff;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -5px;
+    transition: all .2s ease-out;
+}
+
+.toggler {
+    display: none;
+}
+
+.toggler:checked ~ .menu {
+    max-height: 300px;
+}
+
+.logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 0 0 20px 50px;
+    margin: 18px 0 0 0;
+}
+
+.logo img {
+    position: relative;
+    width: 130px;
+    height: auto;
+}
+
+/*slogan*/
+
+.slogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18% 5% 0 5%;
+}
+
+#all-text {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+#all-text:hover {
+    overflow: visible;
+    white-space: normal;
+    text-overflow: clip;
+}
+
+.slogan-img {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.slogan-items {
+    display: none;
+}
+
+.slogan-text2 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.slogan-text2 p {
+    font-size: 1.5em;
+}
+
+/*Music and Sleep*/
+
+.middle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 0;
+    height: 100%;
+    animation: flip-animation 4s linear infinite;
+}
+.img-middle {
+    width: 100%;
+    text-align: center;
+}
+
+@keyframes flip-animation {
+    0%, 25% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(360deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+/*subscriber*/
+
+.subscriber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.subs-tittle {
+    display: block;
+    font-size: 21px;
+    animation: colorChange 2s infinite;
+}
+
+@keyframes colorChange {
+    0% { color: #2E2877; }
+    50% { color: #FEB904; }
+    100% { color: #ffffff; }
+}
+
+@keyframes breathingEffect {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+}
+
+table {
+    display: none;
+}
+
+table tr:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.responsive-table .table-cell:hover {
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.responsive-table {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: #2E2877;
+    font-family: 'Montserrat Alternates Medium', sans-serif;
+    margin: 0 4%;
+}
+
+.table-row {
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 49%;
+    box-sizing: border-box;
+    border: 2px solid #FEB904;
+    margin: 0.5% 0.5%;
+}
+
+.table-cell {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border: 2px solid #FEB904;
+    flex-direction: row;
+}
+
+
+.line-text-container .line:hover,
+.subscriber-button img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+
+.line-text-container {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.line-text-container {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.line {
+    height: 3px;
+    background-color: #2E2877;
+    width: 90%;
+    margin: 1% auto;
+}
+
+.line-orange {
+    height: 3px;
+    background-color: #FEB904;
+    width: 90%;
+    margin: 2% auto;
+}
+
+.text {
+    margin: -1% 5%;
+    color: #FEB904;
+    font-size: 1em;
+    font-family: 'GulfsDisplay-Expanded', sans-serif;
+    letter-spacing: 17px;
+    animation: colorChange 2s infinite;
+}
+
+
+.subscriber-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 0;
+    height: 100%;
+}
+.subscriber-button {
+    width: 100%;
+    text-align: center;
+}
+
+
+.cls-1, .cls-10, .cls-2 {
+    fill: none;
+}
+
+.cls-1, .cls-10 {
+    stroke: #fff;
+}
+
+.cls-1, .cls-2 {
+    stroke-miterlimit: 10;
+    stroke-width: 8px;
+}
+
+.cls-2 {
+    stroke: #feb904;
+}
+
+.cls-3 {
+    font-size: 196px;
+}
+
+.cls-155, .cls-162, .cls-163, .cls-3 {
+    fill: #fff;
+}
+
+.cls-145, .cls-155, .cls-162, .cls-3 {
+    font-family: 'GulfsDisplay-Expanded', sans-serif;
+
+}
+
+.cls-4 {
+    letter-spacing: 0;
+}
+
+.cls-5 {
+    letter-spacing: 0;
+}
+
+.cls-6, .cls-7 {
+    fill: #feb904;
+}
+
+.cls-7 {
+    letter-spacing: 0;
+}
+
+.cls-8 {
+    letter-spacing: -0.01em;
+}
+
+.cls-9 {
+    letter-spacing: 0;
+}
+
+.cls-10 {
+    stroke-linejoin: round;
+    stroke-width: 2px;
+    stroke-dasharray: 24;
+}
+
+.cls-11 {
+    font-size: 68px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+}
+
+.cls-11, .cls-145, .cls-156, .cls-157, .cls-159, .cls-160 {
+    fill: #2e2877;
+}
+
+.cls-12, .cls-15, .cls-16, .cls-19, .cls-20, .cls-22 {
+    letter-spacing: 0.11em;
+}
+
+.cls-13,.cls-14,.cls-21 {
+    letter-spacing: 0.12em;
+}
+
+
+.cls-17, .cls-43 {
+    letter-spacing: 0.14em;
+}
+
+.cls-18 {
+    letter-spacing: 0.49em;
+}
+
+.cls-23, .cls-25, .cls-26, .cls-30, .cls-33, .cls-34, .cls-35 {
+    letter-spacing: 0.12em;
+}
+
+.cls-24, .cls-27, .cls-29 {
+
+    letter-spacing: 0.11em;
+}
+
+
+.cls-28 {
+    letter-spacing: 0.1em;
+}
+
+.cls-31 {
+    letter-spacing: 0.09em;
+}
+
+.cls-32 {
+    letter-spacing: 0.13em;
+}
+
+.cls-36, .cls-37, .cls-38, .cls-39, .cls-40, .cls-41, .cls-42, .cls-43 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+}
+
+.cls-36, .cls-37, .cls-38, .cls-39, .cls-40, .cls-41 {
+    letter-spacing: 0.12em;
+}
+
+.cls-42 {
+    letter-spacing: 0.15em;
+}
+
+.cls-44 {
+    letter-spacing: 0.1em;
+}
+
+.cls-45,.cls-46, .cls-51, .cls-52, .cls-56 {
+    letter-spacing: 0.11em;
+}
+
+.cls-47, .cls-49, .cls-53 {
+    letter-spacing: 0.12em;
+}
+
+.cls-48 {
+    letter-spacing: 0.17em;
+}
+
+.cls-50 {
+    letter-spacing: 0.13em;
+}
+
+.cls-54 {
+    letter-spacing: 0.14em;
+}
+
+.cls-55 {
+    letter-spacing: 0.17em;
+}
+
+.cls-57, .cls-58, .cls-61 {
+    letter-spacing: 0.1em;
+}
+
+.cls-59 {
+    letter-spacing: 0.12em;
+}
+
+.cls-60, .cls-62 {
+    letter-spacing: 0.11em;
+}
+
+.cls-63 {
+    letter-spacing: 0.14em;
+}
+
+.cls-64, .cls-65, .cls-66, .cls-67, .cls-69, .cls-70 {
+    letter-spacing: 0.1em;
+}
+
+
+.cls-68, .cls-74 {
+    letter-spacing: 0.12em;
+}
+
+.cls-71, .cls-73, .cls-75 {
+    letter-spacing: 0.11em;
+}
+
+.cls-72, .cls-77 {
+    letter-spacing: 0.1em;
+}
+
+.cls-76 {
+    letter-spacing: 0.09em;
+}
+
+
+.cls-78 {
+    letter-spacing: 0.14em;
+}
+
+.cls-79 {
+    letter-spacing: 0.06em;
+}
+
+.cls-80 {
+    letter-spacing: 0.12em;
+}
+
+.cls-81,.cls-82 {
+    letter-spacing: 0.1em;
+}
+
+.cls-83 {
+    letter-spacing: 0.11em;
+}
+
+.cls-84, .cls-86, .cls-87,.cls-88, .cls-89 {
+    letter-spacing: 0.11em;
+}
+
+.cls-85 {
+    letter-spacing: 0.1em;
+}
+
+.cls-90 {
+    letter-spacing: 0.14em;
+}
+
+.cls-91 {
+    letter-spacing: 0.06em;
+}
+
+.cls-92,.cls-95, .cls-96 {
+    letter-spacing: 0.1em;
+}
+
+.cls-93 {
+    letter-spacing: 0.12em;
+}
+
+.cls-94 {
+    letter-spacing: 0.35em;
+}
+
+.cls-97 {
+    letter-spacing: 0.12em;
+}
+
+.cls-98,.cls-100,.cls-101,.cls-102 {
+    letter-spacing: 0.11em;
+}
+
+.cls-99, .cls-103 {
+    letter-spacing: 0.35em;
+}
+
+.cls-104 {
+    letter-spacing: 0.12em;
+}
+
+.cls-105 {
+    letter-spacing: 0.12em;
+}
+
+.cls-106 {
+    letter-spacing: 0.11em;
+}
+
+.cls-107 {
+    letter-spacing: 0.12em;
+}
+
+.cls-108 {
+    letter-spacing: 0.11em;
+}
+
+.cls-109 {
+    letter-spacing: 0.24em;
+}
+
+.cls-110 {
+    letter-spacing: 0.11em;
+}
+
+.cls-111 {
+    letter-spacing: 0.11em;
+}
+
+.cls-112 {
+    letter-spacing: 0.11em;
+}
+
+.cls-113 {
+    letter-spacing: 0.11em;
+}
+
+.cls-114 {
+    letter-spacing: 0.11em;
+}
+
+.cls-115 {
+    letter-spacing: 0.09em;
+}
+
+.cls-116 {
+    letter-spacing: 0.13em;
+}
+
+.cls-117 {
+    letter-spacing: 0.11em;
+}
+
+.cls-118 {
+    letter-spacing: 0.11em;
+}
+
+.cls-119 {
+    letter-spacing: 0.1em;
+}
+
+.cls-120 {
+    letter-spacing: 0.15em;
+}
+
+.cls-121 {
+    letter-spacing: 0.11em;
+}
+
+.cls-122 {
+    letter-spacing: 0.11em;
+}
+
+.cls-123 {
+    letter-spacing: 0.1em;
+}
+
+.cls-124 {
+    letter-spacing: 0.1em;
+}
+
+.cls-125 {
+    letter-spacing: 0.11em;
+}
+
+.cls-126 {
+    letter-spacing: 0.1em;
+}
+
+.cls-127 {
+    letter-spacing: 0.11em;
+}
+
+.cls-128 {
+    letter-spacing: 0.1em;
+}
+
+.cls-129 {
+    letter-spacing: 0.15em;
+}
+
+.cls-130 {
+    letter-spacing: 0.13em;
+}
+
+.cls-131 {
+    letter-spacing: 0.12em;
+}
+
+.cls-132 {
+    letter-spacing: 0.11em;
+}
+
+.cls-133 {
+    letter-spacing: 0.11em;
+}
+
+.cls-134 {
+    letter-spacing: 0.06em;
+}
+
+.cls-135 {
+    letter-spacing: 0.06em;
+}
+
+.cls-136 {
+    letter-spacing: 0.11em;
+}
+
+.cls-137 {
+    letter-spacing: 0.13em;
+}
+
+.cls-138 {
+    letter-spacing: 0.1em;
+}
+
+.cls-139 {
+    letter-spacing: 0.11em;
+}
+
+.cls-140 {
+    letter-spacing: 0.1em;
+}
+
+.cls-141 {
+    letter-spacing: 0.12em;
+}
+
+.cls-142 {
+    letter-spacing: 0.1em;
+}
+
+.cls-143 {
+    letter-spacing: 0.11em;
+}
+
+.cls-144 {
+    letter-spacing: 0.11em;
+}
+
+.cls-145 {
+    font-size: 137.21px;
+}
+
+.cls-146 {
+    letter-spacing: 0;
+}
+
+.cls-147 {
+    letter-spacing: -0.04em;
+}
+
+.cls-148 {
+    letter-spacing: 0;
+}
+
+.cls-149 {
+    letter-spacing: 0;
+}
+
+.cls-150 {
+    letter-spacing: -0.04em;
+}
+
+.cls-151 {
+    letter-spacing: 0;
+}
+
+.cls-152 {
+    letter-spacing: -0.02em;
+}
+
+.cls-153 {
+    letter-spacing: -0.06em;
+}
+
+.cls-154 {
+    letter-spacing: 0;
+}
+
+.cls-155 {
+    font-size: 118.42px;
+    letter-spacing: 0.07em;
+}
+
+.cls-156 {
+    letter-spacing: 0.05em;
+}
+
+.cls-158, .cls-160 {
+    letter-spacing: 0.07em;
+}
+
+.cls-159 {
+    letter-spacing: 0.07em;
+}
+
+.cls-161 {
+    letter-spacing: -0.03em;
+}
+
+.cls-162 {
+    font-size: 701.72px;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #2E2877;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    font-family: 'GulfsDisplay-ExpandedItalic', serif;
+    font-weight: normal;
+    /*font-style: italic;*/
+    text-decoration: underline;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0 2%;
+}
+
+.logo2 {
+    display: block;
+    float: right;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.logo2 a {
+    font-size: 2em;
+}
+
+.search-container {
+    display: inline-block;
+    margin: 0 0 -16% 0;
+    padding: 32% 0 0 0;
+}
+
+.search-container form {
+    background-color: white;
+    width: 400px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    right: 10%;
+    transform: scale(0.8);
+}
+
+.search-container input {
+    all: unset;
+    font: 16px system-ui;
+    color: #2E2877;
+    font-family: 'Montserrat Alternates Medium', sans-serif;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+.search-container ::placeholder {
+    color: #2E2877;
+    font-family: 'Montserrat Alternates Medium', sans-serif;
+    opacity: 0.7;
+}
+
+.search-container button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+}
+
+.search-container svg {
+    color: #FEB904;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+}
+
+
+/******************************** Responsive Laptop Screen *******************************************************************/
+
+@media all and (min-width: 800px) {
+
+    /*header*/
+    header {
+        padding-bottom: 1%;
+    }
+
+    .menu li {
+        float: left;
+        text-decoration: underline;
+    }
+
+    .menu a {
+        padding: 20px 30px;
+    }
+
+    .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .logo img {
+        position: absolute;
+    }
+
+    .top {
+        /*margin: 5% 5% 0 5%;*/
+        padding: 5% 5% 0 5%;
+    }
+
+    .mission {
+        font-size: 2em;
+        text-align: center;
+        margin: 4% 0 0 0;
+    }
+
+    .search-container {
+        display: flex;
+        position: relative;
+        float: right;
+        margin: 1.5% 0 0 0;
+        padding: 0 0 0 0;
+    }
+
+    .search-container form {
+        background-color: white;
+        width: 520px;
+        height: 50px;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        right: -54px;
+    }
+
+
+    /*slogan*/
+    .slogan {
+        width: 100%;
+        padding: 0 0;
+        margin-top: -5%;
+    }
+
+    @keyframes swing {
+        0% {
+            transform: rotate(-10deg);
+        }
+        50% {
+            transform: rotate(10deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+
+    .slogan-items {
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        text-shadow: 0 0 .7em #9A55B2;
+    }
+
+    .slogan-img {
+        display: none;
+    }
+
+    .slogan-items h2 {
+        font-size: 3.5em;
+    }
+
+    .slogan-items p {
+        font-size: 2em;
+    }
+
+    .slogan-text2 {
+        display: none;
+    }
+
+
+    .responsive-table {
+    display: none;
+    }
+
+
+    table {
+        display: table;
+        font-family: 'Montserrat Alternates Medium', sans-serif;
+        font-weight: normal;
+        color: #2E2877;
+        flex-direction: column;
+        border-collapse: collapse;
+        border: 4px solid #FEB904;
+        width: 90%;
+        font-size: 32px;
+    }
+
+    table thead {
+        border: none;
+        height: 10px;
+        margin: -1px;
+        padding: 0;
+        width: 1px;
+        overflow: visible;
+        position: static;
+    }
+
+    table tr {
+        display: table-row;
+        border: 4px solid #FEB904;
+        margin-bottom: 0;
+    }
+
+    table td {
+        border: 4px solid #FEB904;
+        display: table-cell;
+        text-align: center;
+    }
+
+    table td::before {
+        flex: 1;
+        content: none;
+        float: none;
+        font-weight: normal;
+    }
+    table th {
+        border: 4px solid #FEB904;
+    }
+
+
+
+    .line-text-container {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .line {
+        height: 3px;
+        background-color: #2E2877;
+        width: 90%;
+        margin: 1% auto;
+    }
+    .line-orange {
+        height: 3px;
+        background-color: #FEB904;
+        width: 90%;
+        margin: 1% auto;
+    }
+
+    .text {
+        margin: -1% 0;
+        color: #FEB904;
+        font-size: 5em;
+        font-family: 'GulfsDisplay-Expanded', sans-serif;
+        letter-spacing: 20px;
+    }
+
+    .subs-tittle {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 58px;
+        font-family: 'GulfsDisplay-Expanded', sans-serif;
+        letter-spacing: 3px;
+    }
+    .subs-tittle h1 {
+        margin: 0;
+    }
+}

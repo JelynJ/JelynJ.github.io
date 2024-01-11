@@ -1,0 +1,677 @@
+@font-face {
+    font-family: 'GulfsDisplay-ExpandedItalic';
+    src: url('https://jelynjin.neocities.org/GulfsDisplay-ExpandedItalic.eot');
+    src: url('https://jelynjin.neocities.org/GulfsDisplay-ExpandedItalic.eot?#iefix') format('embedded-opentype'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-ExpandedItalic.woff2') format('woff2'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-ExpandedItalic.woff') format('woff'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-ExpandedItalic.ttf') format('truetype'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-ExpandedItalic.svg') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GulfsDisplay-Expanded';
+    src: url('https://jelynjin.neocities.org/GulfsDisplay-Expanded.eot');
+    src: url('https://jelynjin.neocities.org/GulfsDisplay-Expanded.eot?#iefix') format('embedded-opentype'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-Expanded.woff2') format('woff2'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-Expanded.woff') format('woff'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-Expanded.ttf') format('truetype'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-Expanded.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color:#ffffff;
+    background: linear-gradient(to bottom, #A076F7 5%, #D8D8FF 100%);
+    font-family: 'GulfsDisplay-ExpandedItalic', serif;
+    font-weight: normal;
+    font-style: italic;
+}
+h2 {
+
+    font-family: 'GulfsDisplay-Expanded', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    margin: -2% 0;
+    text-transform: uppercase;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+}
+img {
+    /*border-radius: 10px;*/
+    max-width: 90%
+}
+
+/*header*/
+
+header {
+    background-color: #2E2877;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    flex-flow: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+/*Menu*/
+
+.menu {
+    margin: 0;
+    padding: 0 0;
+    list-style: none;
+    overflow: hidden;
+    clear: both;
+    max-height: 0;
+    transition: .2s ease-out;
+}
+.menu a {
+    display: block;
+    padding: 10px;
+}
+.menu a:hover {
+    background-color: #9A55B2;
+}
+.menu-icon {
+    display: block;
+    padding:28px 40px 28px 10px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+.nav-icon {
+    background: #ffffff;
+    display: block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+    transition: background .2s ease-out;
+}
+.nav-icon:before {
+    background: #ffffff;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 5px;
+    transition: all .2s ease-out;
+}
+.nav-icon:after {
+    background: #ffffff;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -5px;
+    transition: all .2s ease-out;
+}
+
+.toggler {
+    display: none;
+}
+.toggler:checked ~ .menu {
+    max-height: 300px;
+}
+
+.logo {
+    display: none;
+}
+
+/*slogan*/
+
+.slogan {
+    display: flex;
+    padding: 8% 0;
+}
+.slogan-img {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.slogan-items{
+    display: none;
+}
+.slogan-text2 h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.slogan-text2 h3{
+    text-align: right;
+    margin: 0 2% -15% 2%;
+    padding: 30% 1% 0 1%;
+    font-size: 3em;
+    color: #2E2877;
+}
+.slogan-text2 p {
+    font-size: 1.5em;
+
+}
+
+
+
+/*Study and Research*/
+
+.music-lib-music-sleep-container {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 3% 0;
+}
+
+.music-lib-music-sleep{
+    flex: 1;
+    padding: 0 3%;
+    text-align: center;
+    transition: transform 1s ease-in-out;
+}
+
+.move-right {
+    transform: translateX(-100%);
+}
+
+.move-left {
+    transform: translateX(100%);
+}
+
+.music-lib-music-sleep h2 {
+    font-family: 'GulfsDisplay-Expanded', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    margin: -2% 0;
+    text-transform: uppercase;
+}
+
+.music-lib-music-sleep-tb {
+    font-family: 'Montserrat Alternates Medium', sans-serif;
+    color: #9D71F7;
+    margin: -2% 2% 0 2%;
+    padding: 0 3%;
+    text-align: left;
+
+}
+
+/*daily recommendation.css*/
+
+.daily_recommendation {
+    display: block;
+    flex-flow: column wrap;
+    align-items: normal;
+    border: 5px solid #ffffff;
+    margin: 0 4%;
+}
+
+.music-description {
+    position: absolute;
+    color: #2E2877;
+    font-size: 0.5em;
+    background-color: #ffffff;
+    border: 1px solid #2E2877;
+    padding: 1% 4%;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px #FEB904;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    white-space: nowrap;
+}
+
+.daily_content {
+    display: block;
+    flex: 1;
+    padding: 0 3%;
+    text-align: left;
+}
+
+.daily_content img {
+    display: none;
+}
+
+.cls-1 {
+    font-size: 205.12px;
+}
+
+.cls-1,.cls-12,.cls-16,.cls-18,.cls-29 {
+    fill: #fff;
+}
+
+.cls-1,.cls-24,.cls-29 {
+    font-family: 'GulfsDisplay-Expanded';
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.cls-2 {
+    letter-spacing: -0.03em;
+}
+
+.cls-3 {
+    letter-spacing: -0.04em;
+}
+
+.cls-4 {
+    letter-spacing: -0.08em;
+}
+
+.cls-5 {
+    letter-spacing: -0.02em;
+}
+
+.cls-6 {
+    letter-spacing: -0.01em;
+}
+
+.cls-7 {
+    letter-spacing: 0;
+}
+
+.cls-8 {
+    letter-spacing: -0.04em;
+}
+
+.cls-9 {
+    letter-spacing: 0.01em;
+}
+
+.cls-10 {
+    fill: none;
+    stroke: #feb904;
+    stroke-miterlimit: 10;
+    stroke-width: 8px;
+}
+
+.cls-11,.cls-21 {
+    fill: #feb904;
+}
+
+.cls-12,.cls-17,.cls-18 {
+    isolation: isolate;
+}
+
+.cls-12 {
+    font-size: 47.63px;
+    letter-spacing: 0.18em;
+}
+
+.cls-12,.cls-18,.cls-21 {
+    font-family: 'Montserrat Alternates Medium', sans-serif;
+    font-weight: 500;
+}
+
+.cls-13 {
+    letter-spacing: 0.19em;
+}
+
+.cls-14,.cls-19,.cls-20,.cls-24 {
+    fill: #2e2877;
+}
+
+.cls-15 {
+    fill: #9f73f7;
+}
+
+.cls-18,.cls-21 {
+    font-size: 68px;
+    letter-spacing: 0.18em;
+}
+
+.cls-19 {
+    letter-spacing: 0.18em;
+}
+
+.cls-20 {
+    letter-spacing: 0.17em;
+}
+
+.cls-22 {
+    letter-spacing: 0.18em;
+}
+
+.cls-23 {
+    letter-spacing: 0.18em;
+}
+
+.cls-24 {
+    font-size: 97.85px;
+}
+
+.cls-25 {
+    letter-spacing: -0.02em;
+}
+
+.cls-26 {
+    letter-spacing: -0.04em;
+}
+
+.cls-27 {
+    letter-spacing: 0;
+}
+
+.cls-28 {
+    letter-spacing: -0.04em;
+}
+
+.cls-29 {
+    font-size: 106.48px;
+}
+
+.cls-30 {
+    letter-spacing: -0.03em;
+}
+
+
+/* music-lib */
+
+.music-lib {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 5% 0 1% 0;
+    margin: 0 0 0 5%;
+}
+.music-lib img {
+    width: 100%;
+    height: 220px;
+
+}
+.music-lib-txt {
+    flex: 1;
+    padding: 2% ;
+    text-align: left;
+    font-size: 2em;
+    color: #2E2877;
+}
+.music-lib-txt p {
+    font-family: 'Montserrat Alternates Medium', sans-serif;
+    text-align: justify;
+    letter-spacing: 4px;
+    margin: 0 5% 0 0;
+}
+
+.music-lib-txt h2 {
+
+    font-family: 'GulfsDisplay-Expanded', serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.5em;
+    margin: -2% 0;
+
+}
+
+.music-lib-txt img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.music-lib-txt img:hover {
+    transform: scale(1.05); /* 轻微放大图片 */
+}
+
+.music-lib-txt h2, .music-lib-txt p {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.music-lib-txt:hover h2, .music-lib-txt:hover p {
+    opacity: 1;
+    transform: translateY(0);
+}
+.music-lib-txt {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.music-lib-txt:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.music-lib-txt:hover h2 {
+    font-weight: bold;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #2E2877;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    font-family: 'GulfsDisplay-ExpandedItalic', serif;
+    font-weight: normal;
+    font-style: italic;
+    text-decoration: underline;
+}
+footer ul {
+    list-style: none;
+    padding:0 2%;
+}
+.logo2 {
+    display: block;
+    float: right;
+    font-size: 2em;
+    text-decoration: underline;
+}
+.logo2 a {
+    font-size: 2em;
+}
+
+
+.search-container {
+    display: inline-block;
+    margin: 0 0 0 0;
+    padding: 15% 0 0 0;
+
+}
+
+.search-container form {
+    background-color: white;
+    width: 400px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    right: 10%;
+}
+.search-container input {
+    all: unset;
+    font: 16px system-ui;
+    color: #2E2877;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+.search-container ::placeholder {
+    color: #2E2877;
+    font-family: 'Montserrat Alternates Medium', sans-serif;
+    opacity: 0.7;
+}
+
+.search-container button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+}
+
+.search-container svg {
+    color: #FEB904;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+}
+
+@keyframes pop {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2); /* 数字放大 */
+    }
+}
+
+.listener-count-pop {
+    animation: pop 0.5s ease-in-out;
+}
+
+
+/******************* Responsive Laptop Screen ********************/
+
+@media all and (min-width: 800px) {
+
+/*header*/
+
+    header {
+        padding-bottom: 1%;
+    }
+    .menu li {
+        float: left;
+        text-decoration: underline;
+    }
+    .menu a{
+        padding: 20px 30px;
+    }
+    .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+    .menu-icon {
+        display: none;
+    }
+
+    .logo {
+        display: block;
+        float: left;
+        font-size: 2em;
+        padding: 0 0 20px 50px;
+        margin: 18px 0 0 0;
+    }
+    .logo img {
+        position: absolute;
+        width: 130px;
+        height: auto;
+    }
+
+    .top {
+        /*margin: 5% 5% 0 5%;*/
+        padding: 5% 5% 0 5%;
+    }
+    .mission {
+        font-size: 2em;
+        text-align: center;
+        margin: 4% 0 0 0;
+    }
+
+    .search-container {
+        display: flex;
+        position: relative;
+        /*float: right;*/
+        margin: 2% 0 0 0;
+        padding: 0 0 0 0;
+    }
+
+    .search-container form {
+        right: 64px;
+    }
+
+/*slogan*/
+
+    .slogan {
+        background: url("https://jelynjin.neocities.org/homepage.jpg") no-repeat center center;
+        width:100%;
+        background-size: contain;
+        padding: 20% 0;
+        animation: swing 1s ease-in-out infinite;
+    }
+    @keyframes swing {
+        0% {
+            transform: rotate(-10deg);
+        }
+        50% {
+            transform: rotate(10deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+
+    .slogan-paused {
+        animation-play-state: paused;
+    }
+
+
+    .slogan-items {
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        text-shadow: 0 0 .7em #9A55B2;
+    }
+    .slogan-img {
+        display: none;
+    }
+    .slogan-items h2 {
+        font-size: 3.5em;
+    }
+    .slogan-items p {
+        font-size: 2em;
+    }
+    .slogan-text2 {
+        display: none;
+    }
+
+    .music-lib {
+        flex-direction: row;
+    }
+
+    .music-lib-music-sleep-container {
+        flex-flow: row;
+    }
+    .daily_recommendation {
+        flex-direction: column;
+    }
+
+    .slogan-text2 h3{
+        text-align: right;
+        margin: 8% 2% -10% 2%;
+        font-size: 4em;
+        color: #2E2877;
+    }
+
+    .music-description {
+        position: absolute;
+        color: #2E2877;
+        font-size: 1.5em;
+        background-color: #ffffff;
+        border: 1px solid #2E2877;
+        padding: 1% 4%;
+        border-radius: 5px;
+        box-shadow: 0 2px 8px #FEB904;
+        left: 50%;
+        transform: translateX(-50%);
+        display: none;
+        white-space: nowrap;
+    }
+
+}

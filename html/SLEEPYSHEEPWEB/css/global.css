@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'GulfsDisplay-ExpandedItalic';
+    src: url('https://jelynjin.neocities.org/GulfsDisplay-ExpandedItalic.eot');
+    src: url('https://jelynjin.neocities.org/GulfsDisplay-ExpandedItalic.eot?#iefix') format('embedded-opentype'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-ExpandedItalic.woff2') format('woff2'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-ExpandedItalic.woff') format('woff'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-ExpandedItalic.ttf') format('truetype'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-ExpandedItalic.svg') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GulfsDisplay-Expanded';
+    src: url('https://jelynjin.neocities.org/GulfsDisplay-Expanded.eot');
+    src: url('https://jelynjin.neocities.org/GulfsDisplay-Expanded.eot?#iefix') format('embedded-opentype'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-Expanded.woff2') format('woff2'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-Expanded.woff') format('woff'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-Expanded.ttf') format('truetype'),
+    url('https://jelynjin.neocities.org/GulfsDisplay-Expanded.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background: linear-gradient(to bottom, #A076F7 5%, #D8D8FF 100%);
+    font-family: 'GulfsDisplay-Expanded', serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+img {
+    /*border-radius: 10px;*/
+    max-width: 90%
+}
+
+/*header*/
+
+header {
+    background-color: #2E2877;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    flex-flow: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-style: italic;
+}
+
+/*Menu*/
+
+.menu {
+    margin: 0;
+    padding: 0 0;
+    list-style: none;
+    overflow: hidden;
+    clear: both;
+    max-height: 0;
+    transition: .2s ease-out;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+}
+
+.menu a:hover {
+    background-color: #9A55B2;
+}
+
+.menu-icon {
+    display: block;
+    padding: 28px 40px 28px 10px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+
+.nav-icon {
+    background: #ffffff;
+    display: block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+    transition: background .2s ease-out;
+}
+
+.nav-icon:before {
+    background: #ffffff;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 5px;
+    transition: all .2s ease-out;
+}
+
+.nav-icon:after {
+    background: #ffffff;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -5px;
+    transition: all .2s ease-out;
+}
+
+.toggler {
+    display: none;
+}
+
+.toggler:checked ~ .menu {
+    max-height: 300px;
+}
+
+.logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 0 0 20px 50px;
+    margin: 18px 0 0 0;
+}
+
+.logo img {
+    position: relative;
+    width: 130px;
+    height: auto;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #2E2877;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    font-family: 'GulfsDisplay-ExpandedItalic', serif;
+    font-weight: normal;
+    font-style: italic;
+    text-decoration: underline;
+}
+footer ul {
+    list-style: none;
+    padding:0 2%;
+}
+.logo2 {
+    display: block;
+    float: right;
+    font-size: 2em;
+    text-decoration: underline;
+}
+.logo2 a {
+    font-size: 2em;
+}
+
+.heart-red {
+    fill: red;
+}
+
+/******************************** Responsive Laptop Screen *******************************************************************/
+
+@media all and (min-width: 800px) {
+
+    /*header*/
+    header {
+        padding-bottom: 1%;
+    }
+
+    .menu li {
+        float: left;
+        text-decoration: underline;
+    }
+
+    .menu a {
+        padding: 20px 30px;
+    }
+
+    .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .logo img {
+        position: absolute;
+    }
+
+    .top {
+        padding: 5% 5% 0 5%;
+    }
+
+    .mission {
+        font-size: 2em;
+        text-align: center;
+        margin: 4% 0 0 0;
+    }
+}

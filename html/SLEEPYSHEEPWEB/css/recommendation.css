@@ -1,0 +1,371 @@
+h1 {
+    font-family: 'Quattrocento', serif;
+    display: block;
+    float: right;
+    font-size: 2em;
+    padding-right: 1%;
+}
+
+h2 {
+    font-family: 'Quattrocento', serif;
+    display: none;
+}
+
+p {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 20px;
+    padding: 1%;
+    line-height: 1.5em;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.topic {
+    font-size: 36px;
+    padding: 36% 1% 0 0;
+    text-align: right;
+    font-family: 'GulfsDisplay-Expanded', serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #2E2877;
+    margin: 0 2% 0 0;
+    text-transform: uppercase;
+}
+.topic-2 {
+    font-size: 36px;
+    padding: 0;
+    text-align: right;
+    font-family: 'GulfsDisplay-Expanded', serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #2E2877;
+    margin: 0 2% 0 0;
+    text-transform: uppercase;
+}
+/*content*/
+
+.content {
+    flex-direction: row;
+    text-align: left;
+    padding: 0 5% 5% 5%;
+}
+
+
+.recommendation {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: slideIn 0.5s ease-out forwards;
+}
+
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.recommendation_content1 img {
+    width: 100%;
+    height: 100%;
+    transition: transform 2s;
+    transform-style: preserve-3d;
+}
+
+@keyframes breathingEffect {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+.recommendation_content1:hover img {
+    animation: breathingEffect 3s ease-in-out infinite;
+
+}
+
+
+
+
+
+.recommendation:nth-child(1) {
+    animation-delay: 1s;
+}
+
+.recommendation:nth-child(2) {
+    animation-delay: 2s;
+}
+
+.recommendation:nth-child(3) {
+    animation-delay: 3s;
+}
+
+
+.recommendation_content2 {
+    position: relative;
+}
+
+.music-description {
+    position: absolute;
+    font-size: 0.5em;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.recommendation_content3 {
+    /*padding: 0 5% 5% 5%;*/
+    margin-top: 5%;
+}
+
+
+.recommendation_content2 .cls-1, .cls-2 {
+    fill: none;
+}
+
+.recommendation_content2 .cls-1 {
+    stroke: #fff;
+    stroke-linejoin: round;
+    stroke-width: 5px;
+    stroke-dasharray: 24;
+}
+
+.recommendation_content2 .cls-2 {
+    stroke: #feb904;
+    stroke-miterlimit: 10;
+    stroke-width: 8px;
+}
+
+.recommendation_content2 .cls-3 {
+    fill: #feb904;
+}
+
+.recommendation_content2 .cls-4, .cls-9 {
+    isolation: isolate;
+}
+
+.recommendation_content2 .cls-4 {
+    font-size: 68px;
+    font-family: 'Montserrat Alternates Medium', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+}
+
+.recommendation_content2 .cls-4, .cls-8 {
+    fill: #fff;
+}
+
+.recommendation_content2 .cls-5 {
+    letter-spacing: 0.19em;
+}
+
+.recommendation_content2 .cls-6 {
+    fill: #2e2877;
+}
+
+.recommendation_content2 .cls-7 {
+    fill: #9f73f7;
+}
+
+.recommendation_content3 .cls-1, .cls-8 {
+    font-size: 195.26px;
+    font-family: GulfsDisplay-Expanded, Gulfs Display;
+}
+
+.recommendation_content3 .cls-1, .cls-11 {
+    fill: #2e2877;
+}
+
+.recommendation_content3 .cls-2 {
+    letter-spacing: -0.02em;
+}
+
+.recommendation_content3 .cls-3 {
+    letter-spacing: -0.04em;
+}
+
+.recommendation_content3 .cls-4 {
+    letter-spacing: 0em;
+}
+
+.recommendation_content3 .cls-5 {
+    letter-spacing: -0.04em;
+}
+
+.recommendation_content3 .cls-6 {
+    letter-spacing: 0em;
+}
+
+.recommendation_content3 .cls-7, .cls-8 {
+    fill: #fff;
+}
+
+.recommendation_content3 .cls-8 {
+    letter-spacing: -0.03em;
+}
+
+.recommendation_content3 .cls-9 {
+    fill: #feb904;
+}
+
+.recommendation_content3 .cls-10 {
+    fill: none;
+    stroke: #fff;
+    stroke-linejoin: round;
+    stroke-width: 5px;
+    stroke-dasharray: 24;
+}
+
+.recommendation_content3 .cls-12 {
+    fill: #9d71f7;
+}
+
+.search-container {
+    display: flex;
+    margin: 0 0 0 10%;
+    padding: 25% 0 0 0;
+
+}
+
+.search-container form {
+    background-color: white;
+    width: 260px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    left: 5%;
+}
+
+.search-container input {
+    all: unset;
+    font: 16px system-ui;
+    color: #2E2877;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+.search-container ::placeholder {
+    color: #2E2877;
+    font-family: 'Montserrat Alternates Medium', sans-serif;
+    opacity: 0.7;
+}
+
+.search-container button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+}
+
+.search-container svg {
+    color: #FEB904;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+}
+
+.top-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.recommendation_content3 .heart-red {
+    fill: red;
+}
+
+/* Responsive Laptop Screen */
+
+@media all and (min-width: 800px) {
+
+    /*content*/
+    .lib {
+
+        display: flex;
+
+        flex-flow: row wrap;
+        padding: 3% 0;
+        text-align: right;
+    }
+
+    .lib_content {
+        flex: 1;
+        padding: 0 3%;
+    }
+
+    .lib2 {
+        display: flex;
+        flex-flow: row-reverse wrap;
+        padding: 3% 0;
+        text-align: left;
+    }
+
+    .lib2_content2 {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        padding: 0 3%;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    h2 {
+        display: block;
+    }
+
+    .topic {
+        padding: 5% 2% 0 38%;
+        font-size: 95px;
+    }
+
+    .topic-2 {
+        padding:0 1% 0 10%;
+        font-size: 95px;
+    }
+    .search-container {
+        display: flex;
+        margin: 0 0 0 10%;
+        padding: 1% 0 0 0;
+
+    }
+
+    .search-container form {
+        background-color: white;
+        width: 550px;
+        height: 60px;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        left: 30%;
+    }
+
+    .music-description {
+        position: absolute;
+        font-size: 1.5em;
+        top: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+    }
+}

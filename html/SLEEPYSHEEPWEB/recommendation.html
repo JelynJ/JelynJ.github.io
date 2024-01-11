@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/recommendation.css">
+    <script type="text/javascript" src="js/recommendation.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:medium,bold&display=swap" rel="stylesheet">
+    <title>Recommendation</title>
+</head>
+<body>
+
+<!--header-->
+<header>
+    <div>
+        <a href="index.html" class="logo">
+            <img src="https://jelynjin.neocities.org/logo.svg" alt="logo" title="logo">
+        </a>
+    </div>
+    <div>
+        <input type="checkbox" class="toggler" id="toggler">
+        <label class="menu-icon" for="toggler"><span class="nav-icon"></span></label>
+        <ul class="menu">
+            <li><a href="index.html">&bull; Home</a></li>
+            <li><a href="about.html">&bull; About</a></li>
+            <li><a href="musicLibrary.html">&bull; Music Library</a></li>
+            <li><a href="recommendation.html">&bull; Daily Recommendation</a></li>
+            <li><a href="musicAndSleep.html">&bull; Music & Sleep</a></li>
+        </ul>
+    </div>
+</header>
+
+<!-- content -->
+<div class="top-container">
+<div class="search-container">
+    <form role="search" id="form">
+        <button>
+            <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
+        </button>
+        <input type="search" id="query" name="q"
+               placeholder="Search..."
+               aria-label="Search through site content">
+    </form>
+</div>
+<div class="topic">/Daily</div>
+</div>
+<div class="topic-2">Recommendation/</div>
+<section class="content">
+<div class="recommendation">
+    <div class="recommendation_content1">
+        <img src="https://jelynjin.neocities.org/recommendation1.svg" alt="recommendation1">
+    </div>
+</div>
+<div class="recommendation">
+    <audio id="myAudio" style="display: none;" title="daily music">
+        <source src="https://jelynjin.neocities.org/dripping-water-nature-sounds-8050.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="recommendation_content2">
+        <div class="music-description">
+            RAINDROP - Nature Sounds
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2823.81 1096.24"><defs></defs><g id="图层_1-2" data-name="图层 1"><line class="cls-1" y1="1093.74" x2="2823.81" y2="1093.74"/><g id="Icons_repeat-2" data-name="Icons repeat-2"><path id="Vector" class="cls-2" d="M2536.27,536l30,30-30,30"/><path id="Vector-2" class="cls-2" d="M2431.2,611.08v-15a30,30,0,0,1,30-30h105.08"/><path id="Vector-3" class="cls-2" d="M2461.22,701.14l-30-30,30-30"/><path id="Vector-4" class="cls-2" d="M2566.28,626.09v15a30,30,0,0,1-30,30H2431.2"/></g>
+            <g id="play_button" data-name="play button">
+                <a href="#myAudio">
+                    <path id="Combined_Shape" data-name="Combined Shape" class="cls-3" d="M1370.78,858.73c-130.6-.08-236.4-106-236.32-236.6a236.46,236.46,0,0,1,144.29-217.62c120.3-50.82,259,5.5,309.84,125.8s-5.5,259-125.8,309.85A234.72,234.72,0,0,1,1370.78,858.73Zm-47.89-329.17a15,15,0,0,0-15,15V694.18a15,15,0,0,0,22.87,12.68l119.7-74.81a15,15,0,0,0,0-25.37l-119.68-74.83A14.88,14.88,0,0,0,1322.89,529.56Z"/>
+                </a>
+            </g>
+            <g id="pause_button" data-name="pause button" style="display:none; transform: translate(130px, 0);">
+                <a href="#myAudio">
+                    <path id="paused" class="cls-3" d="M1460.68,530.38c-50.82-120.3-189.54-176.63-309.84-125.8a236.44,236.44,0,0,0-144.29,217.61c-.08,130.6,105.72,236.53,236.32,236.61a234.91,234.91,0,0,0,92-18.58C1455.18,789.4,1511.51,650.68,1460.68,530.38ZM1208.07,701.91a12.73,12.73,0,0,1-12.73,12.73h-14.45a12.73,12.73,0,0,1-12.73-12.73V547.8a12.73,12.73,0,0,1,12.73-12.73h14.45a12.73,12.73,0,0,1,12.73,12.73Zm109.7,0A12.73,12.73,0,0,1,1305,714.64H1290.6a12.73,12.73,0,0,1-12.73-12.73V547.8a12.73,12.73,0,0,1,12.73-12.73H1305a12.73,12.73,0,0,1,12.73,12.73Z"/>
+                </a>
+            </g>
+            <g id="skip-forward"><path id="Path" class="cls-2" d="M1933.64,551l90,71.3-90,71.29Z"/><path id="Path-2" class="cls-2" d="M2059.72,560V684.72"/>
+            <g id="skip-forward_copy" data-name="skip-forward copy"><path id="Path-3" class="cls-2" d="M792.91,693.63l-90.06-71.29L792.91,551Z"/><path id="Path-4" class="cls-2" d="M666.83,684.72V560"/></g><g id="Icons_Saved" data-name="Icons Saved"><path id="Path-5" class="cls-3" d="M278.84,689.88,226.3,652.35l-52.53,37.53V569.79a15,15,0,0,1,15-15h75.06a15,15,0,0,1,15,15Z"/></g><g id="_16:20" data-name=" 16:20"><text class="cls-4" transform="translate(2415.56 75.72)"><tspan xml:space="preserve">  </tspan><tspan class="cls-5" x="61.61" y="0">4</tspan><tspan x="120.09" y="0">:18</tspan></text></g>
+                <rect id="Line" class="cls-6" x="397.12" y="47.47" width="1999.17" height="31.65" rx="9.47"/>
+                <rect id="Line_active_" data-name="Line active " class="cls-7" x="397.12" y="47.47" width="19.17" height="31.65" rx="9.47"/>
+                <circle id="Oval-2" class="cls-8" cx="445.12" cy="63.3" r="63.3"/><g id="_5:30" data-name=" 5:30" class="cls-9"><text class="cls-4" transform="translate(124.15 75.72)">0:00</text></g></g></g></svg>
+    </div>
+</div>
+<div class="recommendation">
+    <div class="recommendation_content3">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2823.81 1445.93"><defs></defs><g id="图层_2" data-name="图层 2"><g id="图层_1-2" data-name="图层 1"><text  id="listener-count" class="cls-1" transform="translate(0 165.97)">999+</text><text class="cls-1" transform="translate(0 165.97)"><tspan x="0" y="234.32" xml:space="preserve">       </tspan><tspan class="cls-2" x="371.77" y="234.32">P</tspan><tspan x="370" y="234.32">People</tspan><tspan x="0" y="468.63" xml:space="preserve">             Li</tspan><tspan class="cls-3" x="923.56" y="468.63">s</tspan><tspan class="cls-4" x="1043.26" y="468.63">t</tspan><tspan x="1150.07" y="468.63">ening </tspan><tspan class="cls-5" x="1859.26" y="468.63">T</tspan><tspan class="cls-6" x="2012.15" y="468.63">o</tspan><tspan x="0" y="702.95" xml:space="preserve">                         ... ... ... ... ...</tspan></text>
+            <path  id="heart" class="cls-7" d="M965.31,1082.16c-21.36-65.69-90.71-36.22-97.13-3.41-8.82-35-76.47-61-97.11,3.46-23,71.83,89.09,136.31,97.11,146.87C876.19,1220.69,988.29,1152.83,965.31,1082.16Z"/>
+            <path  id="broken-heart" class="cls-7" d="M1969,1082.27c-15-50-54-48.34-77.33-30.53l-18,46.89,33.25-3.85-34.24,54.65,28.17-8.93-17.66,86.77-5.49-58.7-39.62,10.56,30.31-60-26.14-4.73,18-51.36c-21.4-26.54-76.75-31.43-87.56,32.21-12.87,75.82,91.36,122.89,110,135.87l0,.3.22-.18c.08.06.19.12.26.18v-.4C1911.37,1208.47,1988.27,1146.47,1969,1082.27Z"/><text class="cls-8" transform="translate(1226.61 1179.95)">v<tspan class="cls-6" x="157.19" y="0">s</tspan></text><rect class="cls-9" x="4.29" y="263.6" width="299.98" height="136.68"/><rect class="cls-9" x="4.29" y="497.92" width="620.73" height="136.68"/><rect class="cls-9" x="4.29" y="755.48" width="1258.4" height="136.68"/><line class="cls-10" y1="1443.43" x2="2823.81" y2="1443.43"/><path class="cls-11" d="M2560.13,570.36c-38.26,96-36.49,103.28-61,93s-34.8-21.1,3.45-117.11,53-96.35,77.53-86.08S2598.37,474.37,2560.13,570.36Z"/><path class="cls-9" d="M2595.4,612.19c-31.67,57.66-70.79,85.48-89.24,74.92-23.07-13.22-11.22-13.37,38.54-103.94s43.72-101,66.78-87.77C2629.93,506,2627.08,554.56,2595.4,612.19Z"/><path class="cls-11" d="M2329.61,598.91c60.53,83.78,60.6,91.26,81.85,75.31s28.62-29-31.91-112.73-74.92-80.5-96.19-64.56S2269.11,515.16,2329.61,598.91Z"/><path class="cls-9" d="M2269.52,612.19c31.66,57.66,70.79,85.48,89.25,74.92,23.06-13.22,11.21-13.37-38.56-103.94s-43.71-101-66.77-87.77C2235,506,2237.84,554.56,2269.52,612.19Z"/><path class="cls-12" d="M2276.89,679.84s40.58,10.68,43.84,0c18.63-61.14-85.59-97.08-85.59-166,0-111.23,88.34-201.4,197.32-201.4s197.31,90.17,197.31,201.4c0,68.88-104.22,104.82-85.58,166,3.26,10.68,43.83,0,43.83,0a231.32,231.32,0,0,0,69.55-166c0-126.9-100.8-229.76-225.11-229.76S2207.35,387,2207.35,513.88A231.31,231.31,0,0,0,2276.89,679.84Z"/><path class="cls-11" d="M2291.88,395.78c25.21-8.17,54.25-50.1,122.35-58.54s106.48,25.14,132.93,26.92c10.46.7,26.49-17.56,26.49-17.56-46.74-41.87-98.27-59.81-164.65-51.59s-112,38.2-147.09,90.2C2261.91,385.21,2281.9,399,2291.88,395.78Z"/></g></g></svg>
+    </div>
+</div>
+</section>
+
+<!-- Footer -->
+
+<footer>
+    <div>
+        <ul>
+            <li><a href="about.html">&bull; About</a><br></li>
+            <li><a href="musicLibrary.html">&bull; Music Library</a><br></li>
+            <li><a href="recommendation.html">&bull; Daily Recommendation</a><br></li>
+            <li><a href="musicAndSleep.html">&bull; Music & Sleep</a><br></li>
+            <li class="logo2"><a href="index.html">SLEEPY SHEEP</a></li>
+        </ul>
+    </div>
+</footer>
+
+</body>
+</html>

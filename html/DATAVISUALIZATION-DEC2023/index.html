@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Josefin+Sans:wght@200;300&display=swap" rel="stylesheet">
+<head>
+    <meta charset="utf-8">
+    <title>Zhiling Jin Term project</title>
+    <script src="d3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+
+<body>
+
+<div class="chart-container">
+    <div id="canvas"></div>
+</div>
+
+<h2>Exploring the Impact of Exercise Duration on Physiological and Well-being Indicators: Analyzing Trends in Post-Workout Soreness, Wake-Up Feelings, and Heart Rate Dynamics</h2>
+<section>
+    <strong>Exercise Duration Interaction</strong>:
+    When the 'Exercise Duration' button is activated, the chart will focus solely on displaying data associated with
+    'Peak Heart Rate' and 'Next Day Post Workout Soreness'. In this mode, users can engage with the chart by clicking on
+    a desired segment within the outer circle. This action prompts the pointer to shift to the clicked interval,
+    effectively highlighting this particular module. This interaction allows for an in-depth examination of the
+    relationship between exercise duration and its subsequent physiological impacts.
+<br>
+    <strong>Time To Fall Asleep Interaction</strong>:
+    Upon selecting the 'Time To Fall Asleep' button, the chart adjusts to show only the data relevant to 'Average
+    Resting Heart Rate' and 'Wake Up Feeling'. Users can then interact by clicking on a specific interval on the inner
+    circle, which corresponds to the 'Time To Fall Asleep' data. The pointer on the chart moves to this selected
+    segment, drawing attention and highlighting this specific module. This feature enables users to closely analyze how
+    the time taken to fall asleep correlates with changes in resting heart rate and feelings upon waking.
+</section>
+<section>
+<p> <strong>Hypothesis</strong>:
+        As exercise duration decreases, peak heart rate decreases, and post-workout soreness the next day decreases. In additionally,
+        As the time to fall asleep decreases, average resting heart rate increases, and the feeling of tiredness upon waking up increases.
+</p>
+</section>
+<section>
+    <h2>Data Collection Overview</h2>
+    <p >All the data was collected once per day over a period of 31 days</p>
+
+    <h3>Objective Data</h3>
+    <ul>
+        <li>Number of Course-Related Tasks: Academic task volume and sleep quality. Units: Number of tasks.</li>
+        <li>Duration of Exercise: Physical activity effect on sleep. Units: Minutes.</li>
+        <li>Daily Peak Heart Rate: Daily physical exertion. Units: BPM.</li>
+        <li>Duration of Deep Sleep: Sleep quality measurement. Units: Hours and minutes.</li>
+        <li>Wake-up Time: Impact of wake-up time on sleep. Units: Time.</li>
+        <li>Time Taken to Fall Asleep: Sleep onset time effect. Units: Minutes.</li>
+        <li>Duration of REM Sleep: Sleep structure evaluation. Units: Hours and minutes.</li>
+        <li>Time Spent on Homework: Academic engagement and sleep. Units: Hours and minutes.</li>
+        <li>Daily Average Resting Heart Rate: Cardiovascular health gauge. Units: BPM.</li>
+    </ul>
+    <h3>Subjective Data and Scales</h3>
+    <ul>
+        <li>Overall Feeling Upon Waking: Restfulness assessment. Scale: 0 (Very Tired) to 5 (Very Refreshed).</li>
+        <li>Appetite Upon Full Wakefulness: Morning hunger levels. Scale: 0 (Not Hungry) to 5 (Extremely Hungry).</li>
+        <li>Post-Exercise Bodily Pain: Comfort after exercise. Scale: 0 (No Pain) to 5 (Severe Pain).</li>
+    </ul>
+</section>
+<section>
+<p>
+    In conclusion, the data and visualizations from this project suggest a complex interplay between exercise duration
+    and various physiological and subjective well-being metrics. The observed direct and inverse relationships indicate
+    that longer exercise sessions can lead to increased tiredness and soreness, while shorter sleep onset times might be
+    linked to greater fatigue. This partially supports the hypothesis that increased physical activity leads to more
+    pronounced post-exercise tiredness, but it also highlights an unexpected relationship between sleep onset time and
+    tiredness upon waking. An alternative hypothesis could explore whether the intensity, rather than the duration of
+    exercise, is a more significant factor in influencing post-exercise soreness and overall well-being. Future studies
+    could benefit from collecting data on exercise intensity, types of physical activities, and their specific impact
+    on heart rate and subjective feelings of tiredness, to further clarify these relationships.
+</p>
+</section>
+</body>
+<script src="main.js"></script>
+</html>
